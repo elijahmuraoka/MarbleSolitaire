@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marble Solitaire</title>
+    <meta name="author" content="Elijah Muraoka">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;700&family=Maven+Pro:wght@400;600&family=Roboto+Slab:wght@400;700&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+<header>
+    <nav id="nav-container">
+        <h1 id="title">Marble Solitaire</h1>
+        <ul style="list-style: none">
+            <li id="nav-contact" class="nav-item"><h3>Contact</h3></li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+    <div id="main-container">
+        <div id="instructions-container">
+            <h2 style="padding-bottom: 1.5vw; border-bottom: .2vw solid darkgreen;">How to Play</h2>
+            <ol>
+                <li class="instructions-item">Click on a marble</li>
+                <li class="instructions-item">Make sure there is a marble in between the one you
+                    have clicked and an empty space (You can only move in the X or Y directions, not
+                    diagonally)
+                </li>
+                <li class="instructions-item">Jump to the empty space from the selected marble to
+                    clear the marble in-between
+                </li>
+            </ol>
+            <h3>Clear as many marbles as possible or get a score of 1 to win!</h3>
+        </div>
+
+        <div>
+            <div id="score-container">
+                <h2 style="margin: 0">Score:</h2>
+                <h2 style="margin: 0">32</h2>
+            </div>
+
+            <div id="game-container">
+                <img src="../../res/blank.png" alt="Blank" class="game-item">
+                <img src="../../res/marble.png" alt="Marble" class="game-item">
+                <img src="../../res/marbleH.jpg" alt="Marble" class="game-item">
+            </div>
+
+            <div id="game-type-container">
+                <label for="game-type">Please select a size and game model:</label>
+                <select id="game-type" class="game-option">
+                    <option>English</option>
+                    <option>European</option>
+                    <option>Triangle</option>
+                </select>
+                <label for="game-size"></label>
+                <select id="game-size" class="game-option">
+                    <option>3</option>
+                    <option>5</option>
+                    <option>7</option>
+                    <option>9</option>
+                    <option>11</option>
+                    <option>13</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<footer>
+    <div id="footer-container">
+        <div id="contact-container">
+            <h2>Contact The Developer</h2>
+            <form id="contact-form" method="post">
+                <label>
+                    <input id="name" class="contact-item" type="text" value="* Full Name" required>
+                </label>
+                <label>
+                    <input id="email" class="contact-item" type="email" value="* Email" required>
+                </label>
+                <label>
+                    <textarea id="message" class="contact-item"
+                              required>* Type message here...</textarea>
+                </label>
+                <input id="submit" type="submit" value="* Send Message">
+            </form>
+        </div>
+        <br/>
+        <small>© 2022. Marble Solitaire by Elijah Muraoka. All rights reserved.</small>
+    </div>
+</footer>
+</body>
+</html>

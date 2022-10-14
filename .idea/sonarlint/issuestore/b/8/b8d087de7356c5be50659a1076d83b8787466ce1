@@ -1,0 +1,31 @@
+
+a
+java:S1301Q"KReplace this "switch" statement by "if" statements to increase readability.(úù‰
+V
+java:S21841"@Cast one of the operands of this integer division to a "double".(Ï°‰×
+V
+java:S21843"@Cast one of the operands of this integer division to a "double".(Ñ¼¶É
+b
+java:S1659"GDeclare "marbleSlot" and all following declarations on a separate line.(ˆ“«äúÿÿÿÿ
+;
+java:S1659"%Declare "originY" on a separate line.(Ú€êş
+G
+java:S1948",Make "modelState" transient or serializable.(òÖ‡ïşÿÿÿÿ
+F
+java:S1948"+Make "emptySlot" transient or serializable.(ˆ“«äúÿÿÿÿ
+G
+java:S1948",Make "marbleSlot" transient or serializable.(ˆ“«äúÿÿÿÿ
+F
+java:S1948"+Make "blankSlot" transient or serializable.(ˆ“«äúÿÿÿÿ
+G
+java:S1948",Make "emptySlotH" transient or serializable.(ˆ“«äúÿÿÿÿ
+H
+java:S1948"-Make "marbleSlotH" transient or serializable.(ˆ“«äúÿÿÿÿ
+I
+java:S1948".Make "mouseAdapter" transient or serializable.(‡¤Û¼øÿÿÿÿ
+p
+java:S3252G"UUse static access with "server.model.hw02.MarbleSolitaireModelState" for "SlotState".(“ºõ¸üÿÿÿÿ
+n	java:S131Q"YComplete cases by adding the missing enum constants or add a default case to this switch.(úù‰
+V	java:S125Z"<This block of commented-out lines of code should be removed.(¸‰Ñºÿÿÿÿÿ
+k
+java:S3252n"UUse static access with "server.model.hw02.MarbleSolitaireModelState" for "SlotState".(½ØÈà
