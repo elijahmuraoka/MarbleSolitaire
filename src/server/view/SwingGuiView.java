@@ -89,7 +89,6 @@ public class SwingGuiView extends JFrame implements MarbleSolitaireGuiView {
     Icon messageIcon = new ImageIcon(messageImageScaled);
     JOptionPane.showMessageDialog(this, message, "User Information",
             JOptionPane.INFORMATION_MESSAGE, messageIcon);
-
   }
 
   @Override
